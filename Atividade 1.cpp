@@ -56,14 +56,35 @@ int main(void){
 			break; 
 		
 			case 3: 
+			
+				printf("\n OPÇÃO ESCOLHIDA: DIVISÃO  \n");
+				printf("\n Escolha um número: ");
+				scanf("%d", &a); 
+			
+				printf("\n Escolha outro número: ");
+				scanf("%d", &b); 
+			
+				divisao = a / b;
 				
+				printf("\n A divisao de %d / %d é : %d", a, b, divisao);
 			break; 
 		
 			case 4: 
-			break;
+			
+				printf("\n OPÇÃO ESCOLHIDA: MULTIPLICAÇÃO  \n");
+				printf("\n Escolha um número: ");
+				scanf("%d", &a); 
+			
+				printf("\n Escolha outro número: ");
+				scanf("%d", &b); 
+			
+				multiplicacao = a * b;
+				
+				printf("\n A multiplicacao de %d * %d é : %d", a, b, multiplicacao);
+			break; 
 		
 			default: 
-			printf(" Error: Valor Inválido! Digite somente valores de 1 a 4\n"); 
+			printf("\n Error: Valor Inválido! Digite somente valores de 1 a 4\n"); 
 			break;
 		
 		}
